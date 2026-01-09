@@ -51,7 +51,3 @@ Editing and deleting is required. Also add one other feature of your choosing.
 ### Submission
 
 * Deploy the App to Firebase Hosting
-
-   ```bash
-   npm run dev
-   ```
