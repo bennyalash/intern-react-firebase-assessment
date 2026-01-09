@@ -1,18 +1,53 @@
-# React + Vite
+# Intern Skills Assessment – React, Firebase & GitHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Instructions for Interns
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Overview
 
-## React Compiler
+This assessment is **not an exam** and there is no pass or fail. The goal is simply to understand what you are already comfortable with and where we can support your growth.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Task: Simple Notes App
 
-Note: This will impact Vite dev & build performances.
+Build a small web app using **React** and **Firebase**
 
-## Expanding the ESLint configuration
+### Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Your app should allow a user to:
+
+1. Sign up / log in using email and password
+2. Add a short text note
+3. See a list of their notes
+4. Log out
+
+Editing and deleting is required. Also add one other feature of your choosing.
+
+### Technical Requirements
+
+#### React
+
+* Use React functional components
+* Use `useState` (and `useEffect` if needed)
+* Split your app into **at least 2 components**
+
+#### Firebase
+
+* Use Firebase Authentication (email & password)
+* Use Firestore to store notes
+* Notes should belong to the logged‑in user
+* Use Firebase Hosting to host your App
+
+#### GitHub
+
+* Use the provided starter repository
+* Push your code to GitHub
+
+### Styling
+
+* No design requirements
+* Feel free to get creative
+
+### Submission
+
+* Deploy the App to Firebase Hosting
