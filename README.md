@@ -21,7 +21,7 @@ Your app should allow a user to:
 3. See a list of their notes
 4. Log out
 
-Editing and deleting is required. Also add one other feature of your choosing.
+Editing and deleting notes would be great additions. Also add one other feature of your choosing.
 
 ### Technical Requirements
 
