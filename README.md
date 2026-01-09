@@ -10,7 +10,7 @@ This assessment is **not an exam** and there is no pass or fail. The goal is sim
 
 ### Task: Simple Notes App
 
-Build a small web app using **React**, **Firebase**, and **GitHub**.
+Build a small web app using **React** and **Firebase**
 
 ### Features
 
@@ -21,7 +21,7 @@ Your app should allow a user to:
 3. See a list of their notes
 4. Log out
 
-No editing or deleting is required.
+Editing and deleting is required. Also add one other feature of your choosing.
 
 ### Technical Requirements
 
@@ -36,6 +36,7 @@ No editing or deleting is required.
 * Use Firebase Authentication (email & password)
 * Use Firestore to store notes
 * Notes should belong to the logged‑in user
+* Use Firebase Hosting to host your App
 
 #### GitHub
 
@@ -49,44 +50,7 @@ No editing or deleting is required.
 
 ### Submission
 
-* Push your final code to GitHub
-* Make sure your README explains how to run the project
-
----
-
-## 2️⃣ Starter Repository README (Include This in the Repo)
-
-# Simple Notes App
-
-## Project Description
-
-This is a simple React application that allows users to sign up, log in, and create personal notes using Firebase Authentication and Firestore.
-
-## Tech Stack
-
-* React
-* Firebase Authentication
-* Firebase Firestore
-
-## Features
-
-* Email & password authentication
-* Create notes
-* View notes for the logged‑in user
-
-## Setup Instructions
-
-1. Clone this repository
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-3. Create a Firebase project
-4. Enable **Email/Password Authentication**
-5. Create a **Firestore database**
-6. Add your Firebase config to `src/firebase.js`
-7. Run the app:
+* Deploy the App to Firebase Hosting
 
    ```bash
    npm run dev
