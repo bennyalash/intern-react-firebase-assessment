@@ -2,7 +2,7 @@
 
 ---
 
-## 1️⃣ Instructions for Interns
+## Instructions for Interns
 
 ### Overview
 
