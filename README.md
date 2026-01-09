@@ -1,93 +1,18 @@
-# Intern Skills Assessment – React, Firebase & GitHub
+# React + Vite
 
----
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 1️⃣ Instructions for Interns
+Currently, two official plugins are available:
 
-### Overview
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-This assessment is **not an exam** and there is no pass or fail. The goal is simply to understand what you are already comfortable with and where we can support your growth.
+## React Compiler
 
-### Task: Simple Notes App
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Build a small web app using **React**, **Firebase**, and **GitHub**.
+Note: This will impact Vite dev & build performances.
 
-### Features
+## Expanding the ESLint configuration
 
-Your app should allow a user to:
-
-1. Sign up / log in using email and password
-2. Add a short text note
-3. See a list of their notes
-4. Log out
-
-No editing or deleting is required.
-
-### Technical Requirements
-
-#### React
-
-* Use React functional components
-* Use `useState` (and `useEffect` if needed)
-* Split your app into **at least 2 components**
-
-#### Firebase
-
-* Use Firebase Authentication (email & password)
-* Use Firestore to store notes
-* Notes should belong to the logged‑in user
-
-#### GitHub
-
-* Use the provided starter repository
-* Push your code to GitHub
-
-### Styling
-
-* No design requirements
-* Feel free to get creative
-
-### Submission
-
-* Push your final code to GitHub
-* Make sure your README explains how to run the project
-
----
-
-## 2️⃣ Starter Repository README (Include This in the Repo)
-
-# Simple Notes App
-
-## Project Description
-
-This is a simple React application that allows users to sign up, log in, and create personal notes using Firebase Authentication and Firestore.
-
-## Tech Stack
-
-* React
-* Firebase Authentication
-* Firebase Firestore
-
-## Features
-
-* Email & password authentication
-* Create notes
-* View notes for the logged‑in user
-
-## Setup Instructions
-
-1. Clone this repository
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-3. Create a Firebase project
-4. Enable **Email/Password Authentication**
-5. Create a **Firestore database**
-6. Add your Firebase config to `src/firebase.js`
-7. Run the app:
-
-   ```bash
-   npm run dev
-   ```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
